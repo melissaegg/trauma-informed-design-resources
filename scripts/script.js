@@ -4,8 +4,8 @@ var index = 0;
 var tab_name = 'Resources';
 
 // ADD YOUR GOOGLE PAGE ID AND API KEY HERE
-var spreadsheet_id = '1PVDSjohYdPPlAdjfUwxvGU4pCMdzgUaLMtNdaD383NE/edit#gid=0';
-var api_key = 'AIzaSyCaMBG1Dr51EFBRZSMru46uzBzQjhDHR9E';
+var spreadsheet_id = '1PVDSjohYdPPlAdjfUwxvGU4pCMdzgUaLMtNdaD383NE';
+var api_key = 'AIzaSyA4K3QN6MGv55-APjWeanVutyftyWjUdI8';
 
 var url = 'https://sheets.googleapis.com/v4/spreadsheets/' + spreadsheet_id + '/values/' + tab_name + '?alt=json&key=' + api_key;
 
