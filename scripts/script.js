@@ -1,5 +1,5 @@
 var catsArray = [];
-var colors = ['#F479A3', '#E91F63', '#DE0F00', '#9D27B0', '#4E00D8', '#001FE0' ,'#2197F3', '#78AEFF', '#03BBD4', '#009688', '#4CAF50', '#076B0B', '#ABB92D', '#DAC406', '#FFC008', '#FF9800', '#FE470E', '#C60E00', '#816464'];
+var colors = ['#131FAA', '#228EE3', '#9A5BD4', '#6633C6', '#8BC633', '#5AA136' ,'#2197F3', '#78AEFF', '#03BBD4', '#009688', '#4CAF50', '#076B0B', '#ABB92D', '#DAC406', '#FFC008', '#FF9800', '#FE470E', '#C60E00', '#816464'];
 var index = 0;
 var tab_name = 'Resources';
 
