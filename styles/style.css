@@ -4,6 +4,7 @@
    align: left;
    font-weight: normal;
    padding-left: 0px;
+  margin: 10px;
   }
 body {
   max-width: 1400px;
@@ -36,6 +37,7 @@ header h1 {
   font-size: 26px;
   font-weight: 500;
   padding-left: 0px;
+  margin: 10px;
 }
 
 .logo-container {
