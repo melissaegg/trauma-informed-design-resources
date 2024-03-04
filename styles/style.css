@@ -1,6 +1,7 @@
  header h4 {
     font-size: 16px;
     align: left;
+   clear: both;
   }
 body {
   max-width: 1400px;
