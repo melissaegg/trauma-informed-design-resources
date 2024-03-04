@@ -3,6 +3,7 @@
    font-family: Roboto, sans-serif;
    align: left;
    font-weight: normal;
+   padding-left: 0px;
   }
 body {
   max-width: 1400px;
