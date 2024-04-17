@@ -14,9 +14,6 @@ body {
   padding: 35px 50px 50px;
 }
 
-p {
-   font-size: 1em;
-}
 .container {
   display: flex;
 }
