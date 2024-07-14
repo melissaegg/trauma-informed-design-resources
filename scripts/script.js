@@ -1,5 +1,5 @@
 var catsArray = [];
-var colors = ['#228EE3','#131FAA', '#9A5BD4', '#6633C6', '#8BC633', '#5AA136', '#30551C','#66145E', '#921d87','#565656'];
+var colors = ['#005B9A','#131FAA', '#9A5BD4', '#6633C6', '#5A9a00', '#5AA136', '#30551C','#66145E', '#921d87','#565656'];
 var index = 0;
 var tab_name = 'Resources';
 
