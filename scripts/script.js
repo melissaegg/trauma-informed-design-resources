@@ -56,7 +56,7 @@ function createCards(year,title,authors,publication,cat,link,desc) {
   var publication = (publication == "") ? "" : '<strong>Publication:</strong> ' + publication;
 
   var card =
-    `<div class="card" data-category-type="${cat}">
+    `<div class="card" tabindex="0" data-category-type="${cat}">
         <a href="${link}" target="_blank">
           <div class="card-header">
             <span class="card-category">${cat}</span>
