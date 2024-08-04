@@ -1,5 +1,5 @@
-  *:focus {
-            outline: 3px solid;
+*:focus {
+   outline: 3px solid;
         }
 
 header h2 {
