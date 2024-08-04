@@ -1,4 +1,8 @@
- header h2 {
+  *:focus {
+            outline: 3px solid;
+        }
+
+header h2 {
    font-size: 16px;
    font-family: Roboto, sans-serif;
    align: left;
