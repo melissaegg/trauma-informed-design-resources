@@ -51,7 +51,7 @@ function processData(data) {
 // Create cards
 function createCards(year,title,authors,publication,cat,link,desc) {
   var year = (year == "") ? "" : year;
-  var desc = (desc == "") ? "" : desc + '...';
+  var desc = (desc == "") ? "" : desc;
   var authors = (authors == "") ? "" : '<strong>By:</strong> ' + authors;
   var publication = (publication == "") ? "" : '<strong>Publication:</strong> ' + publication;
 
