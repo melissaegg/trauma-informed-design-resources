@@ -63,7 +63,7 @@ function createCards(year,title,authors,publication,cat,link,desc) {
             <p class="card-date">${year}</p>
           </div>
           <div class="card-content">
-            <p class="card-title">${title}</p>
+            <h2 class="card-title">${title}</h2>
             <p class="card-authors">${authors}</p>
             <p class="card-publication">${publication}</p>
             <p class="card-desc">${desc}</p>
