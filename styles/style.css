@@ -54,7 +54,6 @@ header h1 {
 }
 
 .btn {
-  border-bottom: 1.5px solid black;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -62,6 +61,7 @@ header h1 {
   line-height: 1.4em;
   transition: all .2s;
   text-align: center;
+  text-decoration: underline;
 }
 
 .btn:hover {
@@ -177,6 +177,14 @@ a {
 
 .copyright a:hover {
   color: #5f5f5f;
+}
+
+.link-icon {
+  max-height: 8px;
+}
+
+.link-icon-large {
+  max-height: 12px;
 }
 
 @media(max-width: 1200px) {
