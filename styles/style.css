@@ -150,7 +150,7 @@ header h1 {
 
 .card-date {
   font-size: 12px;
-  margin-right: 25px;
+  margin-right: 12px;
   color: white;
 }
 
@@ -185,6 +185,29 @@ a {
 
 .link-icon-large {
   max-height: 12px;
+}
+
+.link-icon-white {
+  color: white;
+}
+
+.link-icon-card-container {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 1px;
+}
+
+/* Visible only by screen reader */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media(max-width: 1200px) {
