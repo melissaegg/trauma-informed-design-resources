@@ -56,24 +56,22 @@ function createCards(year,title,authors,publication,cat,link,desc) {
   var publication = (publication == "") ? "" : '<strong>Publication:</strong> ' + publication;
 
   var card =
-    `<div class="card" data-category-type="${cat}">
-        <a href="${link}" target="_blank">
-          <div class="card-header">
-            <span class="card-category">${cat}</span>
-            <span class="card-date">
-              ${year}
-              <span aria-hidden="true" class="link-icon-card-container"><img src="assets/link_arrow_white.svg" class="link-icon-large"></span>
-            </span>
-          </div>
-          <div class="card-content">
-            <h2 class="card-title">${title}</h2>
-            <p class="card-authors">${authors}</p>
-            <p class="card-publication">${publication}</p>
-            <p class="card-desc">${desc}</p>
-          </div>
-          <span class="sr-only">Opens a new window</span>
-        </a>
-      </div>`
+    `<a class="card" data-category-type="${cat}" href="${link}" target="_blank">
+        <div class="card-header">
+          <span class="card-category">${cat}</span>
+          <span class="card-date">
+            ${year}
+            <span aria-hidden="true" class="link-icon-card-container"><img src="assets/link_arrow_white.svg" class="link-icon-large"></span>
+          </span>
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">${title}</h2>
+          <p class="card-authors">${authors}</p>
+          <p class="card-publication">${publication}</p>
+          <p class="card-desc">${desc}</p>
+        </div>
+        <span class="sr-only">Opens a new window</span>
+      </a>`
 
     $('.resources').append(card);
 };
