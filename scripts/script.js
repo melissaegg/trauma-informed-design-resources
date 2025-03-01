@@ -16,7 +16,11 @@ $.getJSON( url, function( data ) {
 // Primary Function for JSON
 function processData(data) {
   delete data[0];
-  data.sort((a, b) => (a[0] > b[0]) ? -1 : 1)
+
+  // the data are in reversed submission order
+  // for elements of the same year, this means that the oldets ones will always appear first (since they maintain their relative position when comparing by year)
+  // to change that we reverse the array first so that the newest elements will appear first
+  data.reverse().sort((a, b) => Number(b[0]) - Number(a[0]));
 
   for (var key in data) {
     if (data.hasOwnProperty(key)) {
