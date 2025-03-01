@@ -18,7 +18,7 @@ function processData(data) {
   delete data[0];
 
   // the data are in reversed submission order
-  // for elements of the same year, this means that the oldets ones will always appear first (since they maintain their relative position when comparing by year)
+  // for elements of the same year, this means that the oldest ones will always appear first (since they maintain their relative position when comparing by year)
   // to change that we reverse the array first so that the newest elements will appear first
   data.reverse().sort((a, b) => Number(b[0]) - Number(a[0]));
 
