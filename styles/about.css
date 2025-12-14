@@ -1,0 +1,45 @@
+header {
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.about-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+
+    .about-sub-container {
+        width: 50%;
+
+        ol {
+            margin-top: 8px;
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-top: 8px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 20px 0 8px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 16px 0 4px;
+        }
+
+        hr {
+            margin: 64px 40px;
+            opacity: 0.4;
+        }
+    }
+}
