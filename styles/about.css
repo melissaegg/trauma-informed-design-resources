@@ -13,7 +13,15 @@ a {
     justify-content: center;
 
     .about-sub-container {
-        width: 50%;
+        width: 100%;
+
+        @media (min-width: 600px) {
+            width: 70%;
+        }
+
+        @media (min-width: 800px) {
+            width: 50%;
+        }
 
         ol {
             margin-top: 8px;
