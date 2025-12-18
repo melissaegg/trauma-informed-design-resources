@@ -2,14 +2,14 @@
    outline: 3px solid;
         }
 
-header h2 {
-   font-size: 16px;
-   font-family: Roboto, sans-serif;
-   align: left;
-   font-weight: normal;
-   padding-left: 0px;
-  margin: 10px;
-  }
+  header h2 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    align: left;
+    font-weight: normal;
+    padding-left: 0px;
+    margin: 10px;
+    }
 body {
   max-width: 1400px;
   margin: 0 auto;
@@ -181,6 +181,10 @@ a {
 
 .link-icon {
   max-height: 8px;
+}
+
+.link-icon-medium {
+  max-height: 10px;
 }
 
 .link-icon-large {
